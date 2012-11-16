@@ -1,0 +1,5 @@
+guard 'staticmatic' do #, :input => "..." do
+  watch(%r{^config/.*})
+  watch(%r{^src/.*})
+  watch(%r{^site/.*})
+end

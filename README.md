@@ -1,6 +1,6 @@
 # Guard::Staticmatic
 
-TODO: Write a gem description
+Use this gem to monitor a staticmatic directory and run staticmatic build on it when files change.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add a sample guard instruction to your Guardfile with:
+
+    $ bundle exec guard init staticmatic
 
 ## Contributing
 
@@ -27,3 +29,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Author
+
+Miha Rebernik <miha@rebernik.info>
